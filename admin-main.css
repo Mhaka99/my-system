@@ -1,0 +1,225 @@
+.main-form{
+    display: flex;
+    height: 440px;
+    width: 1120px;
+    background-color: lightblue;
+    border-radius: 20px;
+    margin-left: 205px;
+
+}
+
+.header{
+    display: flex;
+    height: 160px;
+    width: fit-content;
+    border-radius: 20px;
+    border: 2px solid rgba(94, 143, 160, 0.624);
+
+}
+    
+
+
+.tittle{
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    margin-left: -15px;
+    justify-content: center;
+    width: 850px;
+}
+
+.profile{
+    display: flex;
+    width: 200px;
+    border-radius: 20px;
+
+}
+
+.logout{
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    width: 288px;
+    background-color: lightpink;
+
+}
+
+.logoutbutton{
+    margin-top: 20px;
+    height: 50px;
+    color: white;
+}
+
+
+
+
+
+
+.user_fullname{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+
+    width: fit-content;
+    justify-content: start;
+    margin-top: -50px;
+
+}
+
+.user_number{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+
+    width: fit-content;
+    justify-content: start;
+    margin-top: 10px;
+
+}
+
+.user_email{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+
+    width: fit-content;
+    justify-content: start;
+    margin-top: 45px;
+
+}
+.main-function{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    border-radius: 20px;
+    height: 480px;
+    width: 200px;
+    margin-top: 155px;
+}
+
+.home{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+
+    height: 50px;
+    width: 180px;
+    margin-left: 10px;
+    justify-content: space-around;
+
+
+}
+.payment{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 10px;
+
+    height: 50px;
+    width: 180px;
+    margin-left: 10px;
+
+}
+.loan{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 10px;
+
+    height: 50px;
+    width: 180px;
+    margin-left: 10px;
+
+}
+
+.account_details{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 10px;
+
+    height: 50px;
+    width: 180px;
+    margin-left: 10px;
+
+}
+
+
+.home-button{
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    height: 35px;
+    width: 150px;
+    background-color: rgb(19, 17, 17);
+    text-decoration: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+
+}
+
+.Payment-button{
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    height: 35px;
+    width: 150px;
+    background-color: gray;
+    text-decoration: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    
+}
+
+.Loan-button{
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    height: 35px;
+    width: 150px;
+    background-color: gray;
+    text-decoration: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    
+}
+.Account-button{
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    height: 35px;
+    width: 150px;
+    background-color: gray;
+    text-decoration: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    
+}
+
+
+
+
+
+img{
+    box-shadow: 2px 3px black;
+}
+
+
+
+
+
+
+
+
+
+
+
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}

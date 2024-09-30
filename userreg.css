@@ -1,0 +1,91 @@
+
+.regform {
+    display: flex;
+    background-color: rgba(128, 128, 128, 0.371); /* Semi-transparent gray background */
+    height: auto; /* Adjust height automatically based on content */
+    width: 1200px; /* Adjust width for better responsiveness */
+    max-width: 1200px; /* Limit maximum width for larger screens */
+    margin: 30px auto; /* Center container with some spacing */
+    padding: 20px; /* Add padding inside the container */
+    border: 2px solid black; /* Black border to match the first theme */
+    border-radius: 20px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Minimal shadow */
+}
+
+/* Individual column containers */
+.div1, .div2, .div3, .div4 {
+    display: flex;
+    flex-direction: column;
+    height: auto; /* Adjust height based on content */
+    width: 22%; /* Slightly wider for better spacing */
+    margin: 0 10px; /* Add spacing between columns */
+    padding: 15px; /* Padding inside each column */
+    background: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    border-radius: 15px; /* Rounded corners */
+    border: 1px solid black; /* Black border for columns */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow */
+}
+
+/* Input fields styling */
+.int, .bd {
+    height: 50px; /* Increased height for uniformity */
+    border: 1px solid black; /* Black border to match theme */
+    border-radius: 15px; /* Rounded corners */
+    padding: 0 15px; /* Padding inside the input fields */
+    font-size: 16px; /* Increased font size for readability */
+    margin-bottom: 20px; /* Spacing between input fields */
+    box-sizing: border-box; /* Ensure padding and border are included in the width */
+    background: rgba(255, 255, 255, 0.8); /* Slightly transparent background */
+    color: #333; /* Dark text color for contrast */
+    transition: border-color 0.3s, box-shadow 0.3s; /* Smooth transition for focus */
+}
+
+.int:focus, .bd:focus {
+    border-color: black; /* Black border on focus */
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1); /* Add a shadow effect on focus */
+    outline: none; /* Remove default outline */
+}
+
+/* Gender selection styling */
+.sex {
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 15px;
+    width: 100%;
+    margin-top: 10px; /* Adjust margin to fit within the column */
+    padding: 0 15px;
+    font-size: 16px;
+    background: rgba(255, 255, 255, 0.8); /* Match input fields background */
+    color: #333;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.sex:focus {
+    border-color: black;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    outline: none;
+}
+
+/* Placeholder styling */
+::placeholder {
+    color: #888; /* Light gray for placeholders */
+}
+
+/* Button styling */
+button {
+    background-color: white; /* White background to match theme */
+    color: black; /* Black text color */
+    border: 1px solid black; /* Black border */
+    border-radius: 15px; /* Rounded corners */
+    height: 50px;
+    width: 100%;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s; /* Smooth transition for hover effects */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow */
+}
+
+button:hover {
+    background-color: rgba(128, 128, 128, 0.5); /* Change background color on hover */
+    transform: scale(1.02); /* Slightly enlarge button on hover */
+}
